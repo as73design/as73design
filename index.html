@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Bem-vindo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AS73 Design - Infraestrutura de Datacenter</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Site da Empresa - AS73 Design</h1>
-  <p>Em construção.</p>
+  <header>
+    <div class="container">
+      <div class="logo">
+  <img src="images/logo.png" alt="Logo da AS73 Design" />
+  <span>AS73 Design</span>
+</div>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="images/hero-placeholder.png" alt="Imagem de um datacenter moderno" />
+    <div class="hero-text">
+      <h1>Projetos Inteligentes de Infraestrutura de Datacenter</h1>
+      <p>Agilidade, segurança e desempenho para o seu negócio.</p>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre a empresa</h2>
+      <p>
+        A AS73 Design é especializada em arquitetura de soluções para ambientes
+        de datacenter. Trabalhamos com as principais marcas do mercado e oferecemos
+        soluções sob medida que atendem com precisão às necessidades de infraestrutura
+        de nossos clientes.
+      </p>
+    </div>
+  </section>
+
+  <section id="servicos" class="servicos">
+    <div class="container">
+      <h2>Serviços</h2>
+      <ul>
+        <li><strong>Arquitetura de Soluções:</strong> Projetos customizados com foco em performance e escalabilidade.</li>
+        <li><strong>Consultoria Técnica:</strong> Diagnóstico e recomendações especializadas para evolução da infraestrutura.</li>
+        <li><strong>Suporte à Pré-venda:</strong> Apoio técnico completo em ciclos comerciais de tecnologia.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Contato</h2>
+      <form action="https://formspree.io/f/SEU_ID_AQUI" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="_replyto" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Siga-nos:</p>
+      <div class="social">
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+        <a href="#">GitHub</a>
+      </div>
+      <p>&copy; 2025 AS73 Design. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
